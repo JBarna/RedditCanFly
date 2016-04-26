@@ -1,9 +1,7 @@
-var myinfo = require('./mysecrets');
-
 module.exports = {
     
-    "client_id" : myinfo.client_id,
-    "client_secret": myinfo.client_secret,
+    "client_id" : "CLIENT_ID GOES HERE",
+    "client_secret": "CLIENT_SECRET GOES HERE",
     
     runOnStartUp: false,
     
@@ -21,8 +19,8 @@ module.exports = {
         "kitten pics":{
             "account": false,
             "path": "/r/aww/search",
+            
             "queries": {
-                
                 "q": "kitten",
                 "sort": "new",
                 "restrict_sr": "on",
