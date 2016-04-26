@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="RedditNotifier:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/RedditNotifier_jar</output-path>
-    <root id="archive" name="RedditNotifier.jar">
-      <element id="module-output" name="RedditNotifier" />
-    </root>
-  </artifact>
-</component>
