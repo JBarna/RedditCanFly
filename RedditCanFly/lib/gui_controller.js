@@ -7,7 +7,7 @@ var child = null;
 exports.create = function(){
     
     
-    child = spawn('java', ['-jar', fs.getFullPath('RedditNotifier.jar')]);
+    child = spawn('java', ['-jar', fs.getFullPath('JavaGUI.jar')]);
     
     
     var link = "";
